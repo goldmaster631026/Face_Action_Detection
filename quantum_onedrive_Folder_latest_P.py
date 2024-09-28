@@ -55,7 +55,7 @@ def onedrive_folder_download(folder_link):
             gdown.download(link, output_path, quiet=False)
             print(f"Downloaded {output_filename}")
         except Exception as e:
-            print(f"Error downloading {output_filename}: {e}")
+            print(f"Error downloading - {output_filename}: {e}")
         
     
     
