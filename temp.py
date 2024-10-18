@@ -12,7 +12,7 @@ def main_facial_api(video, facial_unit, caption_unit):
     # if args["gpu"] > 0:
     #     print("setting preferable backend and target to CUDA...")
     #     gp.setPreferableBackend(cv.dnn.DNN_BACKEND_CUDA)
-    #     gp.setPreferableTarget(cv.dnn.DNN_TARGET_CUDA)
+    #     gp.setPreferableTarget(cv.dnn.DNN_TARGET_CUDA) //commit
 
     video_capture = cv.VideoCapture(video)
     fps = video_capture.get(cv.CAP_PROP_FPS)
