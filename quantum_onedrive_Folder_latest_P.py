@@ -29,7 +29,7 @@ def onedrive_folder_download(folder_link):
 
 
 
-    # folder_link = "https://1drv.ms/f/s!AmJWwgacrnJNzQwBZgq9n6tA28X3?e=UbzLf6"
+    # folder_linker = "https://1drv.ms/f/s!AmJWwgacrnJNzQwBZgq9n6tA28X3?e=UbzLf6"
     individualfilelink_foronedrivefolder = []
     config = {
         "headers": {
