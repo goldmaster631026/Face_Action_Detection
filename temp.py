@@ -10,7 +10,7 @@ def main_facial_api(video, facial_unit, caption_unit):
     
     # Uncomment these lines if you are using GPU
     # if args["gpu"] > 0:
-    #     print("setting preferable backend and target to CUDA...")
+    #     print("setting preferable backend and target to CUDA...")//52625
     #     gp.setPreferableBackend(cv.dnn.DNN_BACKEND_CUDA)
     #     gp.setPreferableTarget(cv.dnn.DNN_TARGET_CUDA) //commit
 
