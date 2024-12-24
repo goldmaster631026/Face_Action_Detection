@@ -15,7 +15,7 @@ def onedrive_file_download(file_link):
         allow_redirects=True
         )
         return response.url
-//1611
+//16
     def combine_url(url):
         long_id, cid, auth = re.findall(r'https://photos.onedrive.com/share/(.*?)\?cid=(.*?)&resId=.*?&authkey=(.*?)&', url)[0]
         return f'https://api.onedrive.com/v1.0/drives/{cid}/items/{long_id}/content?authkey={auth}'
